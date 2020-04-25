@@ -10,6 +10,14 @@ This tutorial needs pygame and other python lib; most of them have installed in 
 $ sudo pip install pygame
 ```
 
+If you encounter error "Cannot import scipy.misc.imread", try: 
+```
+$ pip uninstall pillow
+$ pip install pillow==6.1
+$ pip install scipy==1.2.1
+```
+But make sure this won't affect your other project.
+
 #### Task 1:
 ```
 $ python rrt-pygame.py
